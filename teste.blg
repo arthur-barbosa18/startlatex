@@ -1,0 +1,15 @@
+[0] Config.pm:340> INFO - This is Biber 2.4
+[0] Config.pm:343> INFO - Logfile is 'teste.blg'
+[37] biber:287> INFO - === Dom Set 23, 2018, 19:13:16
+[124] Biber.pm:348> INFO - Reading 'teste.bcf'
+[255] Biber.pm:742> INFO - Found 2 citekeys in bib section 0
+[261] Biber.pm:3151> INFO - Processing section 0
+[288] Biber.pm:3308> INFO - Looking for bibtex format file 'kopka-daly.bib' for section 0
+[291] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[294] bibtex.pm:974> INFO - Found BibTeX data source 'kopka-daly.bib'
+[331] UCollate.pm:65> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[331] UCollate.pm:65> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[331] Biber.pm:3028> INFO - Sorting list 'nty/global' of type 'entry' with scheme 'nty' and locale 'pt-BR'
+[331] Biber.pm:3032> INFO - No sort tailoring available for locale 'pt-BR'
+[334] bbl.pm:519> INFO - Writing 'teste.bbl' with encoding 'UTF-8'
+[340] bbl.pm:615> INFO - Output to teste.bbl

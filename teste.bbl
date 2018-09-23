@@ -1,0 +1,76 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global}
+    \entry{kopka-daly}{book}{}
+      \name{author}{2}{}{%
+        {{hash=92f9bd247c03c36407e33d957acc03d2}{%
+           prefix={aHelmut},
+           prefix_i={a\bibinitperiod},
+           family={aKopka},
+           family_i={a\bibinitperiod},
+           given={Ae},
+           given_i={A\bibinitperiod}}}%
+        {{hash=b42ba024a5266c24348771ff997bf2b3}{%
+           prefix={aPatrick},
+           prefix_i={a\bibinitperiod},
+           family={W.\bibnamedelimi Daly},
+           family_i={W\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Wokinghan-England}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{7b24d9fc30f82354c14b51114687c82b}
+      \strng{fullhash}{7b24d9fc30f82354c14b51114687c82b}
+      \field{sortinit}{a}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A aGuide ato \LaTeX}
+      \field{year}{1994}
+    \endentry
+    \entry{TESTE}{book}{}
+      \name{author}{1}{}{%
+        {{hash=6e7ad9b8cbd15010cb39e80d80d7e753}{%
+           family={Arthur},
+           family_i={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Wokinghan-Engladsadsand}%
+      }
+      \list{publisher}{1}{%
+        {Addison-dsadsWesley}%
+      }
+      \strng{namehash}{6e7ad9b8cbd15010cb39e80d80d7e753}
+      \strng{fullhash}{6e7ad9b8cbd15010cb39e80d80d7e753}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Guidedsadas to \LaTeX}
+      \field{year}{1994}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

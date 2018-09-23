@@ -1,0 +1,47 @@
+\documentclass[12pt, a4paper]{article}
+  \usepackage[brazilian]{babel}
+  \usepackage{graphicx,color}
+  \graphicspath{{../figuras/}}
+  \newtheorem{teo}{Teorema}[section]
+  \newtheorem{lema}[teo]{Lema}
+  \newtheorem{cor}[teo]{Corol\'ario}
+  \newtheorem{prop}[teo]{Proposiç\~ao}
+  \usepackage[utf8]{inputenc}
+  \usepackage{csquotes}
+  \usepackage[backend=biber, style=numeric]{biblatex}
+  \addbibresource{kopka-daly.bib}
+\begin{document}
+  \tableofcontents
+  \title{texto do t\'itulo}
+  \author{autor1 \cite{TESTE} \\endereço1 \cite{kopka-daly} \and autor2\\endereço2}
+  \printbibliography
+  \maketitle
+    \subsection{t\'itulo} \subsubsection{t\'itulo}
+  \begin{center}
+    linha 1 \\ linha 2 \\ linha n
+  \end{center}
+  \begin{quote}
+    Texto a ser indentado.
+  \end{quote}
+  \begin{itemize}
+    \item Os itens
+    s\~ao precedidos por $\bullet$;
+    \item Os itens
+    s\~ao separados por um espaço adicional.
+  \end{itemize}
+  \begin{enumerate}
+    \item Os itens
+    s\~ao numerados com algarismos arábicos, no primeiro n\'ivel,
+  \begin{enumerate}
+    \item
+    s\~ao numerados com letras no segundo n\'ivel e
+  \begin{enumerate}
+    \item
+    s\~ao numerados com algarismos romanos no terceiro n\'ivel.
+  \end{enumerate}
+  \end{enumerate}
+  \end{enumerate}
+  \begin{teo}[Pitágoras] 
+  Em todo tri\^angulo ret\^angulo o quadrado do comprimento da hipotenusa \'e igual a soma dos quadrados dos comprimentos dos catetos.
+\end{teo}
+\end{document}
